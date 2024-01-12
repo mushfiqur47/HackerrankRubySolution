@@ -1,3 +1,7 @@
-def iter_hash(hash)
-    # your code here
-   
+
+   def iter_hash(hash)
+       hash.each do |key, val|
+        puts key
+        puts val
+    end
+end
